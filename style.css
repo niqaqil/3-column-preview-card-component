@@ -97,7 +97,7 @@ p {
   color: hsl(228, 45%, 44%); 
 }
 
-@media (min-widht: 992px) {
+@media (min-width: 992px) {
   .container {
     display: flex;
     align-items: center;
@@ -105,5 +105,21 @@ p {
     min-height: 100vh;
     max-width: 900px;
     margin: auto;
+  }
+
+  .bright-orange {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .very-dark-cyan {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .card {
+    padding: 45px;
+  }
+
+  .card p {
+    margin-bottom: 50px;
   }
 }
